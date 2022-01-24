@@ -47,7 +47,6 @@ def findBria():
                 
                 
     return False
-    
-x = findBria()
-print(x)
-print(checkForImage("presence.png", x))
+print("Will check for an image, enter the file name of the image to check for")
+x = input()
+print(checkForImage(x))
